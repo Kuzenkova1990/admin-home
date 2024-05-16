@@ -1,0 +1,35 @@
+.auth-container{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+}
+.logo {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 106px 0 107px 0;
+    svg{
+        width: 48px;
+        height: 69px;
+        // top: 50%;
+        // left: 0;
+        transform: translateY(15%);
+    }
+}
+h1 {
+    max-width: 187px;
+    font-size: 26px;
+    font-weight: bold;
+    align-self: center;
+    
+    
+}
+
+.title-bottom {
+    position: fixed;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 13px;
+    height: 1.85rem;
+}
